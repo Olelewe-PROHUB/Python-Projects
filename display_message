@@ -1,0 +1,10 @@
+#This program will create a function that displays a message. 
+#The arguement will a name
+
+def display_message(name):
+    """Show a simple message."""
+    print(f"Welcome to the show {name.title()}!")
+
+display_message('Arthur')
+
+

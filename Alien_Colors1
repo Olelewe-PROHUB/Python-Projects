@@ -1,0 +1,16 @@
+color = ['green']
+
+if 'green' in color:
+   print("You just earned 5 Points!!\n")
+
+else:
+   print("Sorry, try again with another color")
+
+color = ['yellow']
+
+if 'green' in color:
+   print("You just earned 5 Points!!\n")
+
+else:
+   print("You just earned 10 points!!")
+    

@@ -1,0 +1,6 @@
+In the short amount of time i've studied Python,
+I have learned a substantial amount about the program.
+So far I have covered data types, functions, methods and classes.
+Python is very intuitive and easy to understand.
+Its amazing how all of these subjects all converge to write a program.
+I'm looking forward to learning more Python!

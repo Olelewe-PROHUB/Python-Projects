@@ -1,0 +1,8 @@
+#This program creates a function that will seek the arguement of a book title
+#Once the book title is provided, the function will print a statement
+
+def fav_book(book):
+    """Display a message on the book title submitted"""
+    print(f"One of my favorite books is {book.title()}")
+
+fav_book("Masters of Doom")

@@ -1,0 +1,35 @@
+#This program will create a poll asking user for there name
+#And a Dream Destination
+
+responses = {}
+
+#Set a flag to indicate that polling is active
+
+flag_active = True
+
+while flag_active:
+    # Prompt for a person's name and response
+    
+    name = input("\nWhat is your name?")
+    response = input("\nWhere is your dream destination?")
+
+    # Store the responses in a dictionary
+    responses[name] = response
+
+    # Find out if anyone else will take the poll
+    repeat = input("\nWould you like to let another person respond? (yes/ no) ")
+    if repeat == 'no':
+        flag_active = False
+
+# Polling is complete. Show the results
+print("\n--- Poll Results ---")
+for name, response in responses.items():
+    print(f"{name} would like to travel to {response}")
+
+
+
+
+
+
+
+

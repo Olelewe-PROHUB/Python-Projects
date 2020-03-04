@@ -1,0 +1,25 @@
+#This program creates a list of Sandwich Orders and appends them to another list
+
+orders = ['pastrami', 'ham', 'turkey', 'ham', 'tuna', 'italian', 'ham', 'BLT']
+
+finished = []
+
+print("The Deli has run out of ham!!")
+
+while 'ham' in orders:
+   
+    orders = orders.remove('ham')
+    print(orders)
+
+
+while orders:
+
+    orda = orders.pop()
+
+    print(f"I made your {orda} sandwich")
+
+    finished.append(orda)
+
+
+for i in finished:
+    print(i.title())

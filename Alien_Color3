@@ -1,0 +1,34 @@
+color = ['green']
+
+if 'green' in color:
+   print("You just earned 5 Points!!\n")
+
+elif 'yellow' in color:
+   print("You just earned 10 points!!")
+
+else:
+    print("You just earned 15 points!!")
+
+color = ['yellow']
+
+if 'green' in color:
+   print("You just earned 5 Points!!\n")
+
+elif 'yellow' in color:
+   print("You just earned 10 points!!\n")
+
+else:
+    print("You just earned 15 points!!")
+
+color = ['red']
+
+if 'green' in color:
+   print("You just earned 5 Points!!\n")
+
+elif 'yellow' in color:
+   print("You just earned 10 points!!\n")
+
+else:
+    print("You just earned 15 points!!")
+
+print(f"The current color is {color}")    

@@ -1,0 +1,33 @@
+#This program will ask for the age of an individual and determine the price
+#Of movie tickets based on the age provided. 
+
+st = "Please provide your age to determine your admission fee: "
+
+rik = 0
+
+while rik == 0:
+
+    rik = input(st)
+   
+    if rik == 'quit':
+        break
+
+    elif rik == 0:
+        continue
+
+    else:
+        rik = int(rik)
+ 
+    if rik <= 3:
+        print(f"Age: {rik}. Your ticket costs $0")
+        continue
+
+    if rik >= 3 and rik <= 12:
+        print(f"Age: {rik}. Your ticket costs $10")
+        continue
+
+    if rik >= 15:
+       print(f"Age: {rik}. Your ticket costs $15")
+       continue
+
+   

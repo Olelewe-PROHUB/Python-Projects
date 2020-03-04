@@ -1,0 +1,14 @@
+#This program will ask for the number of indidviduals that request a reservation#Depending on the party size, they will either wait for a table or receive
+#Seating immediately
+
+siz = input("How many people are in your party? ")
+
+prty = int(siz)
+
+print("\n The number in your party is:")
+
+if prty < 8:
+    print("\n We have seating available")
+else:
+    print("\n Unfortunately we cannot accommodate your party at the moment, please wait a few minutes for us to find you a table")
+

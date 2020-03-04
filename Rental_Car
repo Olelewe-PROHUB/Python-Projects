@@ -1,0 +1,5 @@
+#This program is a basic introduction to using the input command
+
+ren = input("What kind of rental car would you like to check out? : ")
+
+print(f"Let me see if I can find you a {ren}")

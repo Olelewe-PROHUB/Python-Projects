@@ -1,0 +1,12 @@
+#For this example, the user will be asked for a number
+#If the number is a multiple of 10, it will confirm otherwise you will get
+#A message saying that it is not possible
+
+num = input("Please enter a number: ")
+
+num1 = int(num)
+
+if num1 % 10 == 0:
+    print(f"The number {num1} is a multiple of 10")
+else:
+    print(f"This number {num1} IS NOT a multiple of 10")

@@ -1,0 +1,14 @@
+#This program will prompt the user for for their favorite pizza toppings
+#If the user enters quit, the program breaks and concludes
+
+pmp = ("You have several choices for pizza toppings, please choose one. (Enter 'quit' to close the program): ")
+
+while pmp != 'quit':
+
+    cho = input(pmp)
+   
+    if cho == 'quit':
+        print("\nThank you for your business!")
+        break
+
+    print(f"\nYour pizza topping of choice is: {cho}")

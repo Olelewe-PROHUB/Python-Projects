@@ -1,0 +1,23 @@
+#The program here creates a function that loops through a list of messages
+#As the function loops through the messages, it prints out each message
+
+#Creates a list of messages
+args1 = ['I love pizza', 'This Von Pea Album is Hot!!!', 'I hate my job', 'I believe this is happenning', 'Perservere, Struggle, Fight, You will get through this']
+
+sent_messages = []
+
+def get_it(mesage, mesage_comp):
+    """Loop Through the argument and print each message in the list and transfer    each message over to a new list"""
+    
+    while mesage:
+        newo = mesage.pop() 
+        print(newo)
+        print("\n")
+        mesage_comp.append(newo)
+
+   
+get_it(args1[:], sent_messages)
+
+print(args1)
+print("\n")
+print(sent_messages)
